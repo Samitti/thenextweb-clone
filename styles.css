@@ -61,10 +61,6 @@ nav {
   text-decoration: none;
 }
 
-.nav2 a:hover {
-  color: black;
-}
-
 .nav2 .search {
   height: 100%;
   border-left: 1px solid rgb(214, 205, 205);
@@ -84,9 +80,92 @@ nav {
 }
 
 .nav3 {
-  height:30px;
+  height: 30px;
   background-color: rgb(248, 224, 8);
   display: flex;
   align-items: center;
-  padding-left:10px;
+  padding-left: 10px;
+}
+
+.section1 {
+  display: flex;
+  width: 100%;
+  height: 400px;
+  background-color: aqua;
+}
+
+.banner {
+  width: 65%;
+  height: 99%;
+  margin: 2px;
+  background-color: blueviolet;
+  display: flex;
+  flex-direction: column;
+}
+
+.banner-side {
+  width: 35%;
+  height: 99%;
+  margin: 2px;
+}
+
+.banner-side .side {
+  width: 100%;
+  height: 49%;
+  background-color: rgb(230, 131, 1);
+  margin: 2px;
+}
+
+.section2 {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  margin: 30px auto 0 auto;
+}
+
+h2 {
+  color: #f42;
+}
+
+.section2 a {
+  text-decoration: none;
+}
+
+.latestnews {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.items {
+  width: 23%;
+  margin: 5px 5px 5px 5px;
+  background-color: green;
+  height: 300px;
+}
+
+.items p {
+  color: black;
+}
+
+.items .time span {
+  color: gray;
+}
+
+.items .time strong:hover {
+  cursor: pointer;
+  color: #363636;
+}
+
+.items p:hover {
+  color: #f42;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+h2:hover {
+  color: black;
+}
+
+.nav2 a:hover {
+  color: black;
 }

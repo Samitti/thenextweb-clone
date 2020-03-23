@@ -208,8 +208,96 @@ h2 {
 .fundings {
   width: 24%;
   margin: 5px 5px 5px 5px;
-  background-color: rgb(228, 102, 18);
   height: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.fund1 {
+  background-color: red;
+  height: 40px;
+  display: flex;
+  text-align: center;
+}
+
+.fund1 p {
+  margin-left: 20px;
+  font-size: 17px;
+  margin-top: 10px;
+  color:white;
+  font-weight: 600;
+}
+.pic1 {
+  width: 60px;
+  height: 60px;
+  margin-left:10px;
+  margin-top: 10px;
+  
+}
+
+
+.fund2 {
+  height: 60px;
+  background-color: rgb(248, 202, 210);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.money {
+  font-weight: 600;
+  color: black;
+}
+
+.seed {
+  color: grey;
+  font-size: 12px;
+  position: relative;
+  left: 1.6em;
+}
+
+
+.fund2 p{
+  margin-left: 5em;
+}
+
+.fund3 {
+  height: 90px;
+  background-color: whitesmoke;
+  line-height: 15px;
+}
+
+.fund3 i{
+  margin-left:1em;
+  margin-top: 1em;
+  color: black;
+}
+
+.fund3 p {
+  margin-left:3em;
+  margin-top: -0.8em;
+  color: grey;
+}
+
+.fund3 p:hover {
+  color: black;
+}
+
+.fund4 {
+  height: 90px;
+  background-color: whitesmoke;
+  border-top: 1px solid pink;
+}
+
+.fund4 small {
+  color: lightgray;
+}
+
+.fund4 p {
+  margin-left: 10px;
+  margin-top: 15px;
+  color: #555;
+  font-size: 15px;
 }
 
 .section4 {
@@ -223,6 +311,11 @@ h2 {
   width: 30%;
   height: 400px;
   background-color: brown;
+}
+
+.article-image img{
+  width:50px;
+  height: 50px;
 }
 
 .section3 .addlinks ul li:hover {
@@ -247,3 +340,4 @@ h2:hover {
 .nav2 a:hover {
   color: black;
 }
+

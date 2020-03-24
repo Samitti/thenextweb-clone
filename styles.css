@@ -304,7 +304,28 @@ h2 {
   width: 85%;
   display: flex;
   margin: 50px auto 0 auto;
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
   /* background-color: rgb(98, 105, 126); */
+}
+
+.apps {
+  display: flex;
+}
+
+.apps img {
+  width:20px;
+  margin-top: 0.7em;
+  margin-left: 0.5em;
+}
+
+.apps a {
+  color: yellow;
+  text-decoration: none;
+}
+
+.apps h2 {
+  font-size: 30px;
 }
 
 .article-image {
@@ -313,7 +334,9 @@ h2 {
 
 .section4 article {
   width: 31%;
-  height: 400px;
+  height: 750px;
+  /* border: 1px solid rgb(136, 134, 134); */
+  margin: 7px 7px 7px 7px;
 }
 
 .gradient {
@@ -327,7 +350,7 @@ h2 {
 }
 
 .gradient-background {
-  background: rgba(0, 0, 0, 0.05) url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png") no-repeat;
+  background: rgba(22, 15, 15, 0.05) url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png") no-repeat;
   background-size: 100% 100%;
   width:100%;
   height:100%;
@@ -345,12 +368,45 @@ h2 {
 .gradient-background p {
   margin-left: 10px;
 }
-  
+
+.gradient-background ul {
+  list-style-type: none;
+  margin-left: 10px;
+}
+
+.gradient-list {
+  font-size: 22px;
+  margin-top: 5em;
+}
+
+.gradient-list p {
+  color: white;
+  margin-left:-0.5px;
+  font-size:15px;
+}
+
+.gradient-list2 {
+  display: flex;
+}
+
+.gradient-list2 a{
+   color: grey;
+   font-weight: 200;
+   font-size: 15px;
+}
+
+.gradient-list2 li {
+  font-size: 12px;
+  color: grey;
+}
+
+.gradient-list2 p {
+  margin-top: 3px;
 }
 
 .disney {
   height: 100px;
-  background-color: pink;
+  background-color: rgb(238, 208, 212);
 }
 
 .disney-c {
@@ -359,14 +415,26 @@ h2 {
   margin-top: 3em;
 }
 
-.disney-a {
+.disney ul {
   width: 60%;
-  margin-top: 10px;
-  margin-left: 1em;
+  margin-left: 0.5em;
+  font-size: 15px;
+  list-style-type: none;
+  padding-top: 10px;
+}
+
+.disney ul a {
+  text-decoration: none;
+  color: red;
+  font-weight: 700;
+}
+
+.disney ul p {
+  color: red;
 }
 
 .disney-b {
-  width: 30%;
+  width:35%;
   height: 100%;
   float: right;
   margin-top: -4em;
@@ -381,20 +449,31 @@ h2 {
   height:100%;
   /* margin-left: 10em; */
   float: right;
+  margin-top: -0.9em;
 }
 
 .list {
   height:300px;
   background-color: transparent;
-  display: flex;
-  flex-direction: column;
   padding-top: 10px;
   line-height: 30px;
+  width:100%;
 }
 
 .list li {
   margin-left: 20px;
+  color: red;
+  width: 100%;
+}
+
+.list p:hover {
+  color: black;
+}
+
+.list p {
   color: grey;
+  font-size: 15px;
+  margin-right: 20px;
 }
 
 .list a {

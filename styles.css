@@ -443,6 +443,27 @@ h2 {
   background-repeat: no-repeat;
 }
 
+.gradient1 {
+  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/zoom-meeting-368x276.png');
+  width: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.gradient2 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/03/YouTube-Dark-368x276.jpg");
+  width: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.gradient3 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/entrepreneur-368x276.png");
+  width: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
 .gradient-background {
   background: rgba(22, 15, 15, 0.05) url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png") no-repeat;
   background-size: 100% 100%;
@@ -596,6 +617,88 @@ h2 {
   height: 60%;
 }
 
+.footer {
+  height: 150px;
+  background-color: rgba(3, 3, 3, 0.801);
+}
+
+.footer1 {
+  height: 150px;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction:column;
+}
+
+.footer2 {
+  background-color: black;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer2 a{
+   text-decoration: none;
+   color: white;
+   font-weight: 600;
+   font-size: 13px;
+}
+
+.footer2 div {
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  justify-content: center;
+  font-size: 15px;
+}
+
+.footer2 p{
+  color: whitesmoke;
+}
+
+.foot1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height:100px;
+  width: 400px;
+}
+
+.foot2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20px;
+  width: 400px;
+  justify-content: space-evenly;
+  font-size: 13px;
+}
+
+.foot1 a {
+  text-decoration: none;
+  color: lightgrey;
+  margin-left: 10px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(80, 74, 74);
+}
+
+.foot1 .fab, .foot1 .fas {
+  font-size: 20px;
+  margin-top: 0.7em;
+  margin-left: 0.7em;
+}
+
+.foot2 a{
+  text-decoration: none;
+  color: whitesmoke;
+  /* margin-left: 10px;
+  margin-top: 20px; */
+}
+
 .section5 .items img:hover {
   cursor: pointer;
 }
@@ -621,4 +724,9 @@ h2:hover {
 
 .nav2 a:hover {
   color: black;
+}
+
+.foot1 a:hover {
+  background-color: black;
+  color: white;
 }

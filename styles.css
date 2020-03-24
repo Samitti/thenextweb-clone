@@ -24,14 +24,14 @@ nav {
 .ul1 a,
 .ul2 a {
   text-decoration: none;
-  color:rgb(233, 213, 213);
+  color: rgb(233, 213, 213);
   font-size: 14px;
 }
 
 .ul1 li,
-.ul2 li{
+.ul2 li {
   list-style-type: none;
-  padding-left:15px;
+  padding-left: 15px;
 }
 
 .nav1 .ul1 {
@@ -98,9 +98,69 @@ nav {
   width: 65%;
   height: 99%;
   margin: 2px;
-  background-color: blueviolet;
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Untitled-design30-796x417.png");
+  background-size: 100% 100%;
   display: flex;
   flex-direction: column;
+}
+
+.banner-gradient {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.25) url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png") no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.gradient-red {
+  width: 100%;
+  height: 100%;
+  background: transparent url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/cover-gradient.png") no-repeat;
+  background-size: 100% 200%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.gradient-red .logo {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner-heading p {
+  color: white;
+  font-size: 10px;
+  font-weight: 100;
+  margin: 10px 0 20px 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.gradient-red .logo p {
+  margin: 10px 10px 0 0;
+  color: white;
+}
+
+.gradient-red .logo img {
+  width: 50%;
+  height: 100%;
+  margin: 10px 0 0 10px;
+}
+
+.banner .banner-heading h3 {
+  color: white;
+  font-size: 50px;
+  margin: 10px 0 0 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.banner-heading p .far,
+.banner-heading p .fas {
+  font-size: 15px;
+  color: whitesmoke;
 }
 
 .banner-side {
@@ -109,12 +169,35 @@ nav {
   margin: 2px;
 }
 
+.banner-side .upper-side {
+  width: 100%;
+  height: 49%;
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/stay-fit-796x417.png");
+  margin: 2px;
+  background-size: 100% 100%;
+}
+
+.side .banner-heading h3 {
+  color: white;
+  font-size: 25px;
+  margin: 0 0 0 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.banner-side .lower-side {
+  width: 100%;
+  height: 49%;
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-796x419.jpg");
+  margin: 2px;
+  background-size: 100% 100%;
+}
+/* 
 .banner-side .side {
   width: 100%;
   height: 49%;
   background-color: rgb(230, 131, 1);
   margin: 2px;
-}
+} */
 
 .section2 {
   width: 85%;
@@ -231,10 +314,8 @@ h2 {
   width: 60px;
   height: 60px;
   margin-left:10px;
-  margin-top: 10px;
-  
+  margin-top: 10px;  
 }
-
 
 .fund2 {
   height: 60px;
@@ -256,8 +337,7 @@ h2 {
   left: 1.6em;
 }
 
-
-.fund2 p{
+.fund2 p {
   margin-left: 5em;
 }
 
@@ -272,7 +352,7 @@ h2 {
   line-height: 1.5em;
 }
 
-.fund6{
+.fund6 {
   /* margin-left:1em;
   margin-top: 1em; */
   display: flex; 
@@ -500,6 +580,32 @@ h2 {
   color: grey;
 }
 
+.section5 {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  margin: 50px auto 0 auto;
+}
+
+.section5 .items {
+  width: 24%;
+  margin: 5px 5px 5px 5px;
+  /* background-color: green; */
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.section5 .items img {
+  background-color: black;
+  width: 100%;
+  height: 60%;
+}
+
+.section5 .items img:hover {
+  cursor: pointer;
+}
+
 .section3 .addlinks ul li:hover {
   color: black;
 }
@@ -522,4 +628,3 @@ h2:hover {
 .nav2 a:hover {
   color: black;
 }
-

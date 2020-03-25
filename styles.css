@@ -8,6 +8,10 @@ nav {
   flex-direction: column;
 }
 
+nav .logo {
+  display: none;
+}
+
 .nav1 {
   height: 30px;
   background-color: black;
@@ -62,7 +66,7 @@ nav {
 
 .nav-small .search {
   width: 60px;
-  height: 100%;  
+  height: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -674,7 +678,7 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction:column;
+  flex-direction: column;
 }
 
 .footer2 {
@@ -685,11 +689,11 @@ h2 {
   justify-content: center;
 }
 
-.footer2 a{
-   text-decoration: none;
-   color: white;
-   font-weight: 600;
-   font-size: 13px;
+.footer2 a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  font-size: 13px;
 }
 
 .footer2 div {
@@ -705,7 +709,7 @@ h2 {
   color: red;
 }
 
-.footer2 p{
+.footer2 p {
   color: whitesmoke;
 }
 
@@ -713,7 +717,7 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  height:100px;
+  height: 100px;
   width: 400px;
 }
 
@@ -737,7 +741,8 @@ h2 {
   background-color: rgb(80, 74, 74);
 }
 
-.foot1 .fab, .foot1 .fas {
+.foot1 .fab,
+.foot1 .fas {
   font-size: 20px;
   margin-top: 0.7em;
   margin-left: 0.7em;
@@ -779,11 +784,12 @@ h2:hover {
   background-color: black;
   color: white;
 }
-  
+
 
 /* media section */
 
 @media only screen and (max-width: 768px) {
+
   .nav1,
   .nav2 {
     display: none;
@@ -802,6 +808,7 @@ h2:hover {
     position: fixed;
     width: 100%;
     top: 50px;
+    padding-left: 1px;
   }
 
   .section1 {
@@ -833,7 +840,7 @@ h2:hover {
   .section5 .latestnews {
     display: flex;
     flex-direction: column;
-  }  
+  }
 
   .section2 .latestnews .items,
   .section5 .latestnews .items {
@@ -844,7 +851,7 @@ h2:hover {
   }
 
   .section5 .latestnews .items img,
-  .section2 .latestnews .items img {    
+  .section2 .latestnews .items img {
     width: 70px;
     height: 70px;
     margin-right: 10px;
@@ -902,9 +909,59 @@ h2:hover {
 
 }
 
-@media only screen and (max-width: 1024px) {
-  .nav1,
+@media (min-width: 769px) and (max-width: 1024px) {
+  .nav2 .hide {
+    display: none;
+  }
+
+  .nav1 {
+    margin-left: 100px;
+    position: fixed;
+    width: 90%;
+    margin-right: 2px;
+  }
+
   .nav2 {
-    /* display: none; */
+    margin: 0 0 0 100px;
+    position: fixed;
+    width: 90%;
+    background-color: white;
+    top: 30px;
+  }
+
+  .nav3 {
+    position: fixed;
+    width: 100%;
+    top: 70px;
+    padding-left: 130px;
+  }
+
+  .banner .logo {
+    display: none;
+  }
+
+  nav .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100px;
+    height: 80px;
+    background-color: rgb(243, 30, 30);
+  }
+
+  nav .logo img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .section1 {
+    margin-top: 100px;
+    height: 60vh;
+  }
+
+  .banner .banner-heading h3 {
+    font-size: 30px;
+    margin-top: 20%;
   }
 }

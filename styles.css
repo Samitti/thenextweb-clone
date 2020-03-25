@@ -592,7 +592,7 @@ h2 {
 }
 
 .disney-b {
-  width: 35%;
+  width: 120px;
   height: 100%;
   float: right;
 }
@@ -782,11 +782,13 @@ h2:hover {
 
   .nav-small {
     display: flex;
+    position: fixed;
   }
 
   .nav3 {
     height: 45px;
     justify-content: space-around;
+    position: fixed;
   }
 
   .section1 {
@@ -812,5 +814,54 @@ h2:hover {
     width: 99%;
     height: 66%;
   }
+
+  .latestnews {
+    display: flex;
+  }
+
+  .items caption {
+    float: right;
+  }
+
+  .section3 .addlinks {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .fundings {
+    width: 100%;
+  }
+
+  .latestfundings {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section3 .addlinks ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section3 .addlinks ul li {
+    border-right: none;
+  }
+
+  .section4 article {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .section4 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section4 .gradient {
+    height: 50%;
+  }
+
 }
 

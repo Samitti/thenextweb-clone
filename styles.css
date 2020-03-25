@@ -693,11 +693,16 @@ h2 {
 }
 
 .footer2 div {
-  display: flex;
-  flex-wrap: wrap;
-  width: 60%;
+  text-align: center;
+  width: 50%;
+  align-items: center;
   justify-content: center;
   font-size: 15px;
+  line-height: 20px;
+}
+
+#love {
+  color: red;
 }
 
 .footer2 p{
@@ -897,3 +902,9 @@ h2:hover {
 
 }
 
+@media only screen and (max-width: 1024px) {
+  .nav1,
+  .nav2 {
+    /* display: none; */
+  }
+}

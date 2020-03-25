@@ -624,6 +624,7 @@ h2 {
   margin-left: 20px;
   color: red;
   width: 100%;
+  border-bottom: 1px solid lightgrey
 }
 
 .list p:hover {
@@ -638,10 +639,6 @@ h2 {
 
 .list a {
   text-decoration: none;
-}
-
-.list hr {
-  color: grey;
 }
 
 .section5 {
@@ -964,4 +961,48 @@ h2:hover {
     font-size: 30px;
     margin-top: 20%;
   }
+
+  .section2 {
+    width: 99%;
+  }
+
+  .section2 .latestnews .items {
+    width: 32%;
+  }
+
+  .section3 {
+    width: 99%;
+  }
+
+  .section3 .addlinks {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .section3 .latestfundings .funding1{
+    display: none;
+  }
+
+  .section3 .latestfundings .fundings {
+    width: 33%;
+  }
+
+  .section4 {
+    width: 100%;
+  }
+
+  .section4  article{
+    width: 48%;
+    margin: auto;
+  }
+
+  .section5 {
+    width: 99%;
+  }
+
+  .section5 .latestnews .items {
+    width: 32%;
+  }
+
 }

@@ -40,6 +40,51 @@ nav {
   display: flex;
 }
 
+.nav-small {
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+
+.nav-small .logo {
+  height: 100%;
+  width: 100px;
+  background-color: #f42;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-small .logo img {
+  width: 60px;
+}
+
+.nav-small .search {
+  width: 60px;
+  height: 100%;  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 15px;
+}
+
+.nav-small .search .fa-search {
+  color: rgb(117, 114, 114);
+}
+
+.nav-small .search .fa-bars {
+  color: red;
+}
+
+.nav-small ul {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  list-style-type: none;
+}
+
 .nav2 {
   display: flex;
   justify-content: space-between;
@@ -728,3 +773,44 @@ h2:hover {
   background-color: black;
   color: white;
 }
+
+@media only screen and (max-width: 768px) {
+  .nav1,
+  .nav2 {
+    display: none;
+  }
+
+  .nav-small {
+    display: flex;
+  }
+
+  .nav3 {
+    height: 45px;
+    justify-content: space-around;
+  }
+
+  .section1 {
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+  }
+
+  .banner .banner-heading h3 {
+    font-size: 20px;
+  }
+
+  .banner .logo {
+    display: none;
+  }
+
+  .banner {
+    width: 99%;
+    height: 33%;
+  }
+
+  .banner-side {
+    width: 99%;
+    height: 66%;
+  }
+}
+

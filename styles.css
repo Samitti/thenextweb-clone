@@ -663,6 +663,7 @@ h2 {
 }
 
 .footer {
+  margin-top: 20px;
   height: 150px;
   background-color: rgba(3, 3, 3, 0.801);
 }
@@ -773,6 +774,9 @@ h2:hover {
   background-color: black;
   color: white;
 }
+  
+
+/* media section */
 
 @media only screen and (max-width: 768px) {
   .nav1,
@@ -782,16 +786,21 @@ h2:hover {
 
   .nav-small {
     display: flex;
+    width: 100%;
     position: fixed;
+    background-color: white;
   }
 
   .nav3 {
-    height: 45px;
+    height: 55px;
     justify-content: space-around;
     position: fixed;
+    width: 100%;
+    top: 50px;
   }
 
   .section1 {
+    margin-top: 100px;
     display: flex;
     flex-direction: column;
     height: 70vh;
@@ -815,12 +824,30 @@ h2:hover {
     height: 66%;
   }
 
-  .latestnews {
+  .section2 .latestnews,
+  .section5 .latestnews {
     display: flex;
+    flex-direction: column;
+  }  
+
+  .section2 .latestnews .items,
+  .section5 .latestnews .items {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 70px;
   }
 
-  .items caption {
-    float: right;
+  .section5 .latestnews .items img,
+  .section2 .latestnews .items img {    
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+  }
+
+  .section5 .latestnews .items p,
+  .section2 .latestnews .items p {
+    font-size: 12px;
   }
 
   .section3 .addlinks {
@@ -861,6 +888,11 @@ h2:hover {
 
   .section4 .gradient {
     height: 50%;
+  }
+
+  .section5 .addlinks {
+    display: flex;
+    flex-direction: row;
   }
 
 }

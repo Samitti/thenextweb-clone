@@ -49,6 +49,7 @@ nav .logo {
   justify-content: space-between;
   align-items: center;
   height: 50px;
+  z-index: 1;
 }
 
 .nav-small .logo {
@@ -152,6 +153,7 @@ nav .logo {
   display: flex;
   align-items: center;
   padding-left: 10px;
+  z-index: 1;
 }
 
 .section1 {

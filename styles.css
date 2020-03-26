@@ -851,13 +851,6 @@ h2:hover {
     width: 90%;
   }
 
-  .foot2 ul {
-    display: inline-flex;
-    width: 400px;
-    justify-content: space-evenly;
-    list-style-type: none;
-  }
-
   .section3 .addlinks {
     display: flex;
     flex-direction: column;
@@ -871,6 +864,13 @@ h2:hover {
   .latestfundings {
     display: flex;
     flex-direction: column;
+  }
+
+  .foot2 ul {
+    display: inline-flex;
+    width: 400px;
+    justify-content: space-evenly;
+    list-style-type: none;
   }
 
   .section3 .addlinks ul {

@@ -635,9 +635,27 @@ h2 {
   background-color: rgb(80, 74, 74);
 }
 
+.foot2 ul {
+  display: inline-flex;
+  width: 400px;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
 .foot2 a {
   text-decoration: none;
   color: whitesmoke;
+}
+
+#foot-img {
+  width: 40px;
+}
+
+.foot2 ul {
+  display: inline-flex;
+  width: 500px;
+  justify-content: space-evenly;
+  list-style-type: none;
 }
 
 .disney ul a {
@@ -841,6 +859,10 @@ h2:hover {
   .section5 .latestnews .items p,
   .section2 .latestnews .items p {
     font-size: 12px;
+  }
+
+  .section3 {
+    width: 90%;
   }
 
   .section3 .addlinks {

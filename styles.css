@@ -60,6 +60,24 @@ nav .logo {
   justify-content: center;
 }
 
+.items img {
+  background-color: black;
+  width: 100%;
+  height: 50%;
+}
+
+.apps img {
+  width: 20px;
+  margin-top: 0.7em;
+  margin-left: 0.5em;
+}
+
+.disney img {
+  width: 100%;
+  height: 100%;
+  float: right;
+}
+
 .nav-small .logo img {
   width: 60px;
 }
@@ -71,6 +89,12 @@ nav .logo {
   justify-content: space-between;
   align-items: center;
   padding-right: 15px;
+}
+
+.nav2 .fa-search {
+  width: 20px;
+  color: grey;
+  margin-left: 10px;
 }
 
 .nav-small .search .fa-search {
@@ -118,12 +142,6 @@ nav .logo {
   text-decoration: none;
 }
 
-.nav2 .fa-search {
-  width: 20px;
-  color: grey;
-  margin-left: 10px;
-}
-
 .nav2 .fa-search:hover {
   color: rgb(146, 137, 137);
 }
@@ -140,7 +158,6 @@ nav .logo {
   display: flex;
   width: 100%;
   height: 400px;
-  /* background-color: aqua; */
 }
 
 .banner {
@@ -188,6 +205,70 @@ nav .logo {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.items p {
+  margin: 10px 0 10px 0;
+  color: black;
+  font-size: 15px;
+  font-weight: 700;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.fund1 p {
+  margin-left: 20px;
+  font-size: 17px;
+  margin-top: 10px;
+  color: white;
+  font-weight: 600;
+}
+
+.fund2 p {
+  margin-left: 5em;
+}
+
+.fund6 p,
+.fund7 p {
+  color: grey;
+  margin-left: 20px;
+}
+
+.fund4 p {
+  margin-left: 10px;
+  color: #555;
+  font-size: 15px;
+}
+
+.gradient-background p {
+  margin-left: 10px;
+}
+
+.gradient-list p {
+  color: white;
+  margin-left: -0.5px;
+  font-size: 15px;
+}
+
+.gradient-list2 p {
+  margin-top: 3px;
+}
+
+.disney p {
+  margin-left: 1em;
+}
+
+.list p {
+  color: grey;
+  font-size: 15px;
+  margin-right: 20px;
+}
+
+.footer2 p {
+  color: whitesmoke;
+}
+
+.disney ul p {
+  color: red;
+}
+
 .gradient-red .logo p {
   margin: 10px 10px 0 0;
   color: white;
@@ -204,6 +285,13 @@ nav .logo {
   font-size: 50px;
   margin: 10px 0 0 10px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.foot1 .fab,
+.foot1 .fas {
+  font-size: 20px;
+  margin-top: 0.7em;
+  margin-left: 0.7em;
 }
 
 .banner-heading p .far,
@@ -263,31 +351,28 @@ h2 {
 .items {
   width: 24%;
   margin: 5px 5px 5px 5px;
-  /* background-color: green; */
   height: 250px;
   display: flex;
   flex-direction: column;
-}
-
-.items img {
-  background-color: black;
-  width: 100%;
-  height: 50%;
-}
-
-.items p {
-  margin: 10px 0 10px 0;
-  color: black;
-  font-size: 15px;
-  font-weight: 700;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .items .time span {
   color: gray;
   font-size: 13px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
+.gradient-background ul {
+  list-style-type: none;
+  margin-left: 10px;
+}
+
+.disney ul {
+  width: 60%;
+  margin-left: 0.5em;
+  font-size: 15px;
+  list-style-type: none;
+  margin-top: 10px;
 }
 
 .section3 {
@@ -295,7 +380,6 @@ h2 {
   display: flex;
   flex-direction: column;
   margin: 50px auto 0 auto;
-  /* background-color: greenyellow; */
 }
 
 .section3 .addlinks {
@@ -304,10 +388,22 @@ h2 {
   align-items: center;
 }
 
+.gradient-list2 li {
+  font-size: 12px;
+  color: grey;
+}
+
 .section3 .addlinks ul {
   list-style: none;
   display: flex;
   margin-right: 10px;
+}
+
+.list li {
+  margin-left: 20px;
+  color: red;
+  width: 100%;
+  border-bottom: 1px solid lightgrey;
 }
 
 .section3 .addlinks ul li {
@@ -344,14 +440,6 @@ h2 {
   text-align: center;
 }
 
-.fund1 p {
-  margin-left: 20px;
-  font-size: 17px;
-  margin-top: 10px;
-  color: white;
-  font-weight: 600;
-}
-
 .pic1 {
   width: 60px;
   height: 60px;
@@ -379,10 +467,6 @@ h2 {
   left: 1.6em;
 }
 
-.fund2 p {
-  margin-left: 5em;
-}
-
 .fund3 {
   height: 90px;
   background-color: whitesmoke;
@@ -391,20 +475,15 @@ h2 {
   flex-direction: column;
   justify-content: flex-start;
   justify-content: center;
-  line-height: 1.5em;
 }
 
 .fund6 {
-  /* margin-left:1em;
-  margin-top: 1em; */
   display: flex;
   margin-left: 20px;
   color: black;
 }
 
 .fund7 {
-  /* margin-left:3em;
-  margin-top: -0.8em; */
   display: flex;
   color: grey;
   margin-left: 20px;
@@ -412,12 +491,6 @@ h2 {
 
 .fund3 i {
   color: black;
-}
-
-.fund6 p,
-.fund7 p {
-  color: grey;
-  margin-left: 20px;
 }
 
 .fund3 p:hover {
@@ -437,29 +510,19 @@ h2 {
   color: lightgray;
 }
 
-.fund4 p {
-  margin-left: 10px;
-  color: #555;
-  font-size: 15px;
-}
-
 .section4 {
   width: 85%;
   display: flex;
   margin: 50px auto 0 auto;
-  /* justify-content: space-between; */
   flex-wrap: wrap;
-  /* background-color: rgb(98, 105, 126); */
+}
+
+.section4 #hiden {
+  display: none;
 }
 
 .apps {
   display: flex;
-}
-
-.apps img {
-  width: 20px;
-  margin-top: 0.7em;
-  margin-left: 0.5em;
 }
 
 .apps a {
@@ -478,13 +541,11 @@ h2 {
 .section4 article {
   width: 31%;
   height: 750px;
-  /* border: 1px solid rgb(136, 134, 134); */
   margin: 7px 7px 7px 7px;
 }
 
 .gradient {
   height: 30%;
-  /* background-color: blue; */
   margin-top: 20px;
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/WHO-COvid-368x276.jpg");
   width: 100%;
@@ -530,25 +591,10 @@ h2 {
   font-size: 21px;
 }
 
-.gradient-background p {
-  margin-left: 10px;
-}
-
-.gradient-background ul {
-  list-style-type: none;
-  margin-left: 10px;
-}
-
 .gradient-list {
   font-size: 22px;
   display: flex;
   flex-direction: column;
-}
-
-.gradient-list p {
-  color: white;
-  margin-left: -0.5px;
-  font-size: 15px;
 }
 
 .gradient-list2 {
@@ -561,15 +607,6 @@ h2 {
   font-size: 15px;
 }
 
-.gradient-list2 li {
-  font-size: 12px;
-  color: grey;
-}
-
-.gradient-list2 p {
-  margin-top: 3px;
-}
-
 .disney {
   height: 100px;
   background-color: rgb(238, 208, 212);
@@ -577,12 +614,30 @@ h2 {
   justify-content: space-between;
 }
 
-.disney ul {
-  width: 60%;
-  margin-left: 0.5em;
-  font-size: 15px;
-  list-style-type: none;
-  margin-top: 10px;
+.list a {
+  text-decoration: none;
+}
+
+.footer2 a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.foot1 a {
+  text-decoration: none;
+  color: lightgrey;
+  margin-left: 10px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(80, 74, 74);
+}
+
+.foot2 a {
+  text-decoration: none;
+  color: whitesmoke;
 }
 
 .disney ul a {
@@ -591,24 +646,9 @@ h2 {
   font-weight: 700;
 }
 
-.disney ul p {
-  color: red;
-}
-
 .disney-b {
   width: 120px;
   height: 100%;
-  float: right;
-}
-
-.disney p {
-  margin-left: 1em;
-}
-
-.disney img {
-  width: 100%;
-  height: 100%;
-  /* margin-left: 10em; */
   float: right;
 }
 
@@ -620,25 +660,8 @@ h2 {
   width: 100%;
 }
 
-.list li {
-  margin-left: 20px;
-  color: red;
-  width: 100%;
-  border-bottom: 1px solid lightgrey
-}
-
 .list p:hover {
   color: black;
-}
-
-.list p {
-  color: grey;
-  font-size: 15px;
-  margin-right: 20px;
-}
-
-.list a {
-  text-decoration: none;
 }
 
 .section5 {
@@ -651,7 +674,6 @@ h2 {
 .section5 .items {
   width: 24%;
   margin: 5px 5px 5px 5px;
-  /* background-color: green; */
   height: 300px;
   display: flex;
   flex-direction: column;
@@ -686,13 +708,6 @@ h2 {
   justify-content: center;
 }
 
-.footer2 a {
-  text-decoration: none;
-  color: white;
-  font-weight: 600;
-  font-size: 13px;
-}
-
 .footer2 div {
   text-align: center;
   width: 50%;
@@ -704,10 +719,6 @@ h2 {
 
 #love {
   color: red;
-}
-
-.footer2 p {
-  color: whitesmoke;
 }
 
 .foot1 {
@@ -724,30 +735,7 @@ h2 {
   justify-content: center;
   height: 20px;
   width: 400px;
-  justify-content: space-evenly;
   font-size: 13px;
-}
-
-.foot1 a {
-  text-decoration: none;
-  color: lightgrey;
-  margin-left: 10px;
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  background-color: rgb(80, 74, 74);
-}
-
-.foot1 .fab,
-.foot1 .fas {
-  font-size: 20px;
-  margin-top: 0.7em;
-  margin-left: 0.7em;
-}
-
-.foot2 a {
-  text-decoration: none;
-  color: whitesmoke;
 }
 
 .section5 .items img:hover {
@@ -782,11 +770,7 @@ h2:hover {
   color: white;
 }
 
-
-/* media section */
-
 @media only screen and (max-width: 768px) {
-
   .nav1,
   .nav2 {
     display: none;
@@ -903,7 +887,6 @@ h2:hover {
     display: flex;
     flex-direction: row;
   }
-
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
@@ -933,10 +916,6 @@ h2:hover {
     padding-left: 130px;
   }
 
-  .banner .logo {
-    display: none;
-  }
-
   nav .logo {
     display: flex;
     justify-content: center;
@@ -945,6 +924,10 @@ h2:hover {
     width: 100px;
     height: 80px;
     background-color: rgb(243, 30, 30);
+  }
+
+  .banner .logo {
+    display: none;
   }
 
   nav .logo img {
@@ -980,7 +963,7 @@ h2:hover {
     align-items: flex-start;
   }
 
-  .section3 .latestfundings .funding1{
+  .section3 .latestfundings .funding1 {
     display: none;
   }
 
@@ -992,7 +975,7 @@ h2:hover {
     width: 100%;
   }
 
-  .section4  article{
+  .section4 article {
     width: 48%;
     margin: auto;
   }
@@ -1004,5 +987,4 @@ h2:hover {
   .section5 .latestnews .items {
     width: 32%;
   }
-
 }

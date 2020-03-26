@@ -644,13 +644,6 @@ h2 {
   width: 40px;
 }
 
-.foot2 ul {
-  display: inline-flex;
-  width: 400px;
-  justify-content: space-evenly;
-  list-style-type: none;
-}
-
 .disney ul a {
   text-decoration: none;
   color: red;
@@ -856,6 +849,13 @@ h2:hover {
 
   .section3 {
     width: 90%;
+  }
+
+  .foot2 ul {
+    display: inline-flex;
+    width: 400px;
+    justify-content: space-evenly;
+    list-style-type: none;
   }
 
   .section3 .addlinks {

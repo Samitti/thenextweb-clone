@@ -329,7 +329,7 @@ nav .logo {
 }
 
 .section2 {
-  width: 85%;
+  width: 90%;
   display: flex;
   flex-direction: column;
   margin: 50px auto 0 auto;
@@ -349,8 +349,8 @@ h2 {
 }
 
 .items {
-  width: 24%;
-  margin: 5px 5px 5px 5px;
+  width: 23%;
+  margin: 8px 8px 8px 8px;
   height: 250px;
   display: flex;
   flex-direction: column;
@@ -672,8 +672,8 @@ h2 {
 }
 
 .section5 .items {
-  width: 24%;
-  margin: 5px 5px 5px 5px;
+  width: 23%;
+  margin: 8px 8px 8px 8px;
   height: 300px;
   display: flex;
   flex-direction: column;
@@ -950,7 +950,7 @@ h2:hover {
   }
 
   .section2 .latestnews .items {
-    width: 32%;
+    width: 30%;
   }
 
   .section3 {
@@ -985,6 +985,6 @@ h2:hover {
   }
 
   .section5 .latestnews .items {
-    width: 32%;
+    width: 30%;
   }
 }

@@ -635,13 +635,6 @@ h2 {
   background-color: rgb(80, 74, 74);
 }
 
-.foot2 ul {
-  display: inline-flex;
-  width: 400px;
-  justify-content: space-evenly;
-  list-style-type: none;
-}
-
 .foot2 a {
   text-decoration: none;
   color: whitesmoke;
@@ -653,7 +646,7 @@ h2 {
 
 .foot2 ul {
   display: inline-flex;
-  width: 500px;
+  width: 400px;
   justify-content: space-evenly;
   list-style-type: none;
 }

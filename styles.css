@@ -402,7 +402,7 @@ h2 {
 .list li {
   margin-left: 20px;
   color: red;
-  width: 100%;
+  width: 95%;
   border-bottom: 1px solid lightgrey;
 }
 
@@ -870,7 +870,8 @@ h2:hover {
   .section4 article {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 98%;
+    margin-top: 80px;
   }
 
   .section4 {
@@ -881,6 +882,10 @@ h2:hover {
 
   .section4 .gradient {
     height: 50%;
+  }
+
+  .section5 {
+    margin-top: 80px;
   }
 
   .section5 .addlinks {

@@ -816,7 +816,8 @@ h2:hover {
     font-size: 20px;
   }
 
-  .banner .logo {
+  .banner .logo img,
+  .banner .logo div {
     display: none;
   }
 
@@ -948,13 +949,14 @@ h2:hover {
     background-color: rgb(243, 30, 30);
   }
 
-  .banner .logo {
-    display: none;
-  }
-
   nav .logo img {
     width: 70px;
     height: 70px;
+  }
+
+  .banner .logo img,
+  .banner .logo div {
+    display: none;
   }
 
   .section1 {

@@ -1,0 +1,1018 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+}
+
+nav .logo {
+  display: none;
+}
+
+.nav1 {
+  height: 30px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav1 .ul2 {
+  display: flex;
+  padding-right: 20px;
+}
+
+.ul1 a,
+.ul2 a {
+  text-decoration: none;
+  color: rgb(233, 213, 213);
+  font-size: 14px;
+}
+
+.ul1 li,
+.ul2 li {
+  list-style-type: none;
+  padding-left: 15px;
+}
+
+.nav1 .ul1 {
+  text-decoration: none;
+  color: white;
+  display: flex;
+}
+
+.nav-small {
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  z-index: 1;
+}
+
+.nav-small .logo {
+  height: 100%;
+  width: 100px;
+  background-color: #f42;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.items img {
+  background-color: black;
+  width: 100%;
+  height: 50%;
+}
+
+.apps img {
+  width: 20px;
+  margin-top: 0.7em;
+  margin-left: 0.5em;
+}
+
+.disney img {
+  width: 100%;
+  height: 100%;
+  float: right;
+}
+
+.nav-small .logo img {
+  width: 60px;
+}
+
+.nav-small .search {
+  width: 60px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 15px;
+}
+
+.nav2 .fa-search {
+  width: 20px;
+  color: grey;
+  margin-left: 10px;
+}
+
+.nav-small .search .fa-search {
+  color: rgb(117, 114, 114);
+}
+
+.nav-small .search .fa-bars {
+  color: red;
+}
+
+.nav-small ul {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  list-style-type: none;
+}
+
+.nav2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+
+.nav2 ul {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  list-style-type: none;
+}
+
+.nav2 a {
+  margin-right: 25px;
+  color: grey;
+  text-decoration: none;
+}
+
+.nav2 .search {
+  height: 100%;
+  border-left: 1px solid rgb(214, 205, 205);
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.nav2 .fa-search:hover {
+  color: rgb(146, 137, 137);
+}
+
+.nav3 {
+  height: 30px;
+  background-color: rgb(248, 224, 8);
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  z-index: 1;
+}
+
+.section1 {
+  display: flex;
+  width: 100%;
+  height: 400px;
+}
+
+.banner {
+  width: 65%;
+  height: 99%;
+  margin: 2px;
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Untitled-design30-796x417.png");
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.banner-gradient {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.25) url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png") no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.gradient-red {
+  width: 100%;
+  height: 100%;
+  background: transparent url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/cover-gradient.png") no-repeat;
+  background-size: 100% 200%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.gradient-red .logo {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner-heading p {
+  color: white;
+  font-size: 10px;
+  font-weight: 100;
+  margin: 10px 0 20px 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.items p {
+  margin: 10px 0 10px 0;
+  color: black;
+  font-size: 15px;
+  font-weight: 700;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.fund1 p {
+  margin-left: 20px;
+  font-size: 17px;
+  margin-top: 10px;
+  color: white;
+  font-weight: 600;
+}
+
+.fund2 p {
+  margin-left: 5em;
+}
+
+.fund6 p,
+.fund7 p {
+  color: grey;
+  margin-left: 20px;
+}
+
+.fund4 p {
+  margin-left: 10px;
+  color: #555;
+  font-size: 15px;
+}
+
+.gradient-background p {
+  margin-left: 10px;
+}
+
+.gradient-list p {
+  color: white;
+  margin-left: -0.5px;
+  font-size: 15px;
+}
+
+.gradient-list2 p {
+  margin-top: 3px;
+}
+
+.disney p {
+  margin-left: 1em;
+}
+
+.list p {
+  color: grey;
+  font-size: 15px;
+  margin-right: 20px;
+}
+
+.footer2 p {
+  color: whitesmoke;
+}
+
+.disney ul p {
+  color: red;
+}
+
+.gradient-red .logo p {
+  margin: 10px 10px 0 0;
+  color: white;
+}
+
+.gradient-red .logo img {
+  width: 50%;
+  height: 100%;
+  margin: 10px 0 0 10px;
+}
+
+.banner .banner-heading h3 {
+  color: white;
+  font-size: 50px;
+  margin: 10px 0 0 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.foot1 .fab,
+.foot1 .fas {
+  font-size: 20px;
+  margin-top: 0.7em;
+  margin-left: 0.7em;
+}
+
+.banner-heading p .far,
+.banner-heading p .fas {
+  font-size: 15px;
+  color: whitesmoke;
+}
+
+.banner-side {
+  width: 35%;
+  height: 100%;
+}
+
+.banner-side .upper-side {
+  width: 100%;
+  height: 49%;
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/stay-fit-796x417.png");
+  margin: 2px 2px 0 0;
+  background-size: 100% 100%;
+}
+
+.side .banner-heading h3 {
+  color: white;
+  font-size: 25px;
+  margin: 0 0 0 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.banner-side .lower-side {
+  width: 100%;
+  height: 49%;
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-796x419.jpg");
+  margin: 2px 2px 0 0;
+  background-size: 100% 100%;
+}
+
+.section2 {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  color: #f42;
+}
+
+.section2 a {
+  text-decoration: none;
+}
+
+.latestnews {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.items {
+  width: 23%;
+  margin: 8px 8px 8px 8px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+}
+
+.items .time span {
+  color: gray;
+  font-size: 13px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.gradient-background ul {
+  list-style-type: none;
+  margin-left: 10px;
+}
+
+.disney ul {
+  width: 60%;
+  margin-left: 0.5em;
+  font-size: 15px;
+  list-style-type: none;
+  margin-top: 10px;
+}
+
+.section3 {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  margin: 50px auto 0 auto;
+}
+
+.section3 .addlinks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.gradient-list2 li {
+  font-size: 12px;
+  color: grey;
+}
+
+.section3 .addlinks ul {
+  list-style: none;
+  display: flex;
+  margin-right: 10px;
+}
+
+.list li {
+  margin-left: 20px;
+  color: red;
+  width: 95%;
+  border-bottom: 1px solid lightgrey;
+}
+
+.section3 .addlinks ul li {
+  margin: 10px;
+  color: #f42;
+  padding-right: 10px;
+  border-right: 1px solid #f42;
+}
+
+.section3 .addlinks ul li:last-child {
+  border-right: none;
+}
+
+.section3 a {
+  text-decoration: none;
+}
+
+.latestfundings {
+  display: flex;
+}
+
+.fundings {
+  width: 24%;
+  margin: 5px 5px 5px 5px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.fund1 {
+  background-color: red;
+  height: 40px;
+  display: flex;
+  text-align: center;
+}
+
+.pic1 {
+  width: 60px;
+  height: 60px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.fund2 {
+  height: 60px;
+  background-color: rgb(248, 202, 210);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.money {
+  font-weight: 600;
+  color: black;
+}
+
+.seed {
+  color: grey;
+  font-size: 12px;
+  position: relative;
+  left: 1.6em;
+}
+
+.fund3 {
+  height: 90px;
+  background-color: whitesmoke;
+  line-height: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  justify-content: center;
+}
+
+.fund6 {
+  display: flex;
+  margin-left: 20px;
+  color: black;
+}
+
+.fund7 {
+  display: flex;
+  color: grey;
+  margin-left: 20px;
+}
+
+.fund3 div {
+  margin-bottom: 10px;
+}
+
+.fund3 i {
+  color: black;
+}
+
+.fund3 p:hover {
+  color: black;
+}
+
+.fund4 {
+  height: 90px;
+  background-color: whitesmoke;
+  border-top: 1px solid pink;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.fund4 small {
+  color: lightgray;
+}
+
+.section4 {
+  width: 85%;
+  display: flex;
+  margin: 50px auto 0 auto;
+  flex-wrap: wrap;
+}
+
+.section4 #hiden {
+  display: none;
+}
+
+.apps {
+  display: flex;
+}
+
+.apps a {
+  color: yellow;
+  text-decoration: none;
+}
+
+.apps h2 {
+  font-size: 30px;
+}
+
+.article-image {
+  height: 800px;
+}
+
+.section4 article {
+  width: 31%;
+  height: 750px;
+  margin: 7px 7px 7px 7px;
+}
+
+.gradient {
+  height: 30%;
+  margin-top: 20px;
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/WHO-COvid-368x276.jpg");
+  width: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.gradient1 {
+  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/zoom-meeting-368x276.png');
+  width: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.gradient2 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/03/YouTube-Dark-368x276.jpg");
+  width: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.gradient3 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/entrepreneur-368x276.png");
+  width: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.gradient-background {
+  background: rgba(22, 15, 15, 0.05) url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png") no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.gradient-background a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  font-size: 21px;
+}
+
+.gradient-list {
+  font-size: 22px;
+  display: flex;
+  flex-direction: column;
+}
+
+.gradient-list2 {
+  display: flex;
+}
+
+.gradient-list2 a {
+  color: grey;
+  font-weight: 200;
+  font-size: 15px;
+}
+
+.disney {
+  height: 100px;
+  background-color: rgb(238, 208, 212);
+  display: flex;
+  justify-content: space-between;
+}
+
+.list a {
+  text-decoration: none;
+}
+
+.footer2 a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.foot1 a {
+  text-decoration: none;
+  color: lightgrey;
+  margin-left: 10px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(80, 74, 74);
+}
+
+.foot2 a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+#foot-img {
+  width: 40px;
+}
+
+.disney ul a {
+  text-decoration: none;
+  color: red;
+  font-weight: 700;
+}
+
+.disney-b {
+  width: 120px;
+  height: 100%;
+  float: right;
+}
+
+.list {
+  height: 300px;
+  background-color: transparent;
+  padding-top: 10px;
+  line-height: 30px;
+  width: 100%;
+}
+
+.list p:hover {
+  color: black;
+}
+
+.section5 {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  margin: 50px auto 0 auto;
+}
+
+.section5 .items {
+  width: 23%;
+  margin: 8px 8px 8px 8px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.section5 .items img {
+  background-color: black;
+  width: 100%;
+  height: 60%;
+}
+
+.footer {
+  margin-top: 20px;
+  height: 150px;
+  background-color: rgba(3, 3, 3, 0.801);
+}
+
+.footer1 {
+  height: 150px;
+  background-color: rgb(14, 13, 13);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.footer2 {
+  background-color: black;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer2 div {
+  text-align: center;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+#love {
+  color: red;
+}
+
+.foot1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 400px;
+}
+
+.foot2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20px;
+  width: 400px;
+  font-size: 13px;
+}
+
+.listss {
+  display: inline-flex;
+  width: 500px;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+.section5 .items img:hover {
+  cursor: pointer;
+}
+
+.section3 .addlinks ul li:hover {
+  color: black;
+}
+
+.items .time strong:hover {
+  cursor: pointer;
+  color: #363636;
+}
+
+.items p:hover {
+  color: #f42;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+h2:hover {
+  color: black;
+}
+
+.nav2 a:hover {
+  color: black;
+}
+
+.foot1 a:hover {
+  background-color: black;
+  color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  .nav1,
+  .nav2 {
+    display: none;
+  }
+
+  .nav-small {
+    display: flex;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+  }
+
+  .nav3 {
+    height: 55px;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    top: 50px;
+    padding-left: 1px;
+  }
+
+  .section1 {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+  }
+
+  .banner .banner-heading h3 {
+    font-size: 20px;
+  }
+
+  .banner .logo img,
+  .banner .logo div {
+    display: none;
+  }
+
+  .banner {
+    width: 99%;
+    height: 33%;
+  }
+
+  .banner-side {
+    width: 99%;
+    height: 66%;
+  }
+
+  .section2 .latestnews,
+  .section5 .latestnews {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section2 .latestnews .items,
+  .section5 .latestnews .items {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 70px;
+  }
+
+  .section5 .latestnews .items img,
+  .section2 .latestnews .items img {
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+  }
+
+  .section5 .latestnews .items p,
+  .section2 .latestnews .items p {
+    font-size: 12px;
+  }
+
+  .section3 {
+    width: 90%;
+  }
+
+  .section3 .addlinks {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .fundings {
+    width: 100%;
+  }
+
+  .latestfundings {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section3 .addlinks ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section3 .addlinks ul li {
+    border-right: none;
+  }
+
+  .section4 article {
+    display: flex;
+    flex-direction: column;
+    width: 98%;
+    margin-top: 80px;
+  }
+
+  .section4 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section4 .gradient {
+    height: 50%;
+  }
+
+  .section5 {
+    margin-top: 80px;
+  }
+
+  .section5 .addlinks {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .nav2 .hide {
+    display: none;
+  }
+
+  .nav1 {
+    margin-left: 100px;
+    position: fixed;
+    width: 90%;
+    margin-right: 2px;
+  }
+
+  .nav2 {
+    margin: 0 0 0 100px;
+    position: fixed;
+    width: 90%;
+    background-color: white;
+    top: 30px;
+  }
+
+  .nav3 {
+    position: fixed;
+    width: 100%;
+    top: 70px;
+    padding-left: 130px;
+  }
+
+  nav .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100px;
+    height: 80px;
+    background-color: rgb(243, 30, 30);
+  }
+
+  nav .logo img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .banner .logo img,
+  .banner .logo div {
+    display: none;
+  }
+
+  .section1 {
+    margin-top: 100px;
+    height: 60vh;
+  }
+
+  .banner .banner-heading h3 {
+    font-size: 30px;
+    margin-top: 20%;
+  }
+
+  .section2 {
+    width: 99%;
+  }
+
+  .section2 .latestnews .items {
+    width: 30%;
+  }
+
+  .section3 {
+    width: 99%;
+  }
+
+  .section3 .addlinks {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .section3 .latestfundings .funding1 {
+    display: none;
+  }
+
+  .section3 .latestfundings .fundings {
+    width: 33%;
+  }
+
+  .section4 {
+    width: 100%;
+  }
+
+  .section4 article {
+    width: 48%;
+    margin: auto;
+  }
+
+  .section5 {
+    width: 99%;
+  }
+
+  .section5 .latestnews .items {
+    width: 30%;
+  }
+}

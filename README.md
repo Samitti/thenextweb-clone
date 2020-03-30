@@ -18,7 +18,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/Samitti/thenextweb-clone/homepage/index.html)
+[Live Demo Link](https://raw.githack.com/Samitti/thenextweb-clone/master/index.html)
 
 # Prerequisites
 Visual Studio code editor
